@@ -6,7 +6,7 @@ import Image from "next/image";
 
 interface MediaItemProps {
 	data: Song;
-	onClick?: () => void;
+	onClick?: (v: string) => void;
 }
 
 const index: React.FC<MediaItemProps> = ({ data, onClick }) => {
